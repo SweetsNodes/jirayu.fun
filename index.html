@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>jirayu.fun</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "IBM Plex Sans Thai", Sans-Serif;
+        transition: 0.3s ease-in;
+      }
+
+      html,
+      body {
+        background: #1f1f1f;
+        scroll-behavior: smooth;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      header {
+        user-select: none;
+      }
+
+      header {
+        font-size: 1.5rem;
+        color: #ffffff;
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        border: 1px solid #ffffff;
+        border-top: none !important;
+        border-left: none !important;
+        border-right: none !important;
+      }
+
+      .project-header {
+        font-size: 1.5rem;
+        color: #ffffff;
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+      }
+
+      .projects {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 4px;
+      }
+
+      .project {
+        color: #fff;
+        text-align: center;
+        padding-top: 5px !important;
+        padding: 20px;
+        border: 1px solid #ffffff;
+        border-radius: 5px;
+        margin: 10px;
+      }
+
+      .project h1 {
+        font-size: 1em;
+        border: 1px solid #ffffff;
+        padding: 20px;
+        border-top: none !important;
+        border-left: none !important;
+        border-right: none !important;
+        width: 100%;
+      }
+
+      .project-links {
+        display: flex;
+        justify-content: center;
+      }
+
+      .project-links button {
+        padding: 10px 30px;
+        margin: 10px;
+        border: 1px solid #ff9130;
+        border-radius: 15px;
+        color: #fff;
+        cursor: pointer;
+        background: none;
+        outline: none;
+        overflow: none;
+      }
+
+      .project-links button:hover {
+        border: 1px solid #ffffff !important;
+        color: #ff9130 !important;
+      }
+    </style>
+  </head>
+  <body>
+    <header>ยินดีต้อนรับเข้าสู่เว็บไซต์ของจิรายุ!</header>
+    <h1 class="project-header">โปรเจ็กต์ทั้งหมด</h1>
+    <div class="projects">
+      <div class="project">
+        <h1>MV</h1>
+        <div class="project-links">
+          <button
+            onclick="window.location.href =
+          'https://discord.gg/kQ99jTygCy'"
+          >
+            สั่งซื้อ
+          </button>
+        </div>
+      </div>
+      <div class="project">
+        <h1>SweetsNodes</h1>
+        <div class="project-links">
+          <button
+            onclick="window.location.href =
+          'https://discord.gg/kQ99jTygCy'"
+          >
+            ทดลองใช้งาน
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
